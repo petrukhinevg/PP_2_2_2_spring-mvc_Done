@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CarService {
+public class CarServiceImpl implements CarService{
     private List<Car> carList;
 
-    public CarService() {
+    public CarServiceImpl() {
         carList = new ArrayList<>();
         carList.add(new Car("Марка1", "Модель1", "Цвет1"));
         carList.add(new Car("Марка2", "Модель2", "Цвет2"));
